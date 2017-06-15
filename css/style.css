@@ -75,37 +75,23 @@ footer.page-footer {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  /*z-index: -1;   */
 }
-#big-icon-wrapper{
-  margin-top: 20px;
-}
-/* centers writing on top image header */
+
+/* writing on top image header in index */
 #top-header{
-  padding-top:23%;
   color: black;
-  font-weight:;
   font-size: 25px;
 }
-/* centers writing on middle image header */
-#middle-header{
-  color: black;
-  font-weight: bold;
-  font-size: 35px;
-}
-/* icon styling for skills/ technologies */
+
+/* icon styling for skills and technologies */
 .skill-icon{
-  max-height: 70px;
-  max-width: 70px;
+  max-height: 50px;
+  max-width: 50px;
   padding:5px;
 }
-/* centers writing on botttom image header */
-#bottom-header{
-  color: black;
-  font-weight: bold;
-  font-size: 35px;
-}
-/* styles for social icons in top menu */
+
+/* styles for social and page links in top menu */
 
 .top-nav-menu-links{
   font-weight: bold;
@@ -114,8 +100,18 @@ footer.page-footer {
 
 /* copyright footer styles */
 .copyright{
+  color: black;
   text-align: center;
+  font-weight: bold;
+  background-color: white;
 }
-.copyright:hover{
-  font-size: 20px;
+
+.page-footer{
+  background: white;
 }
+
+.light, .page-footer .footer-copyright {
+  font-weight: 300;
+  background-color: white;
+}
+
