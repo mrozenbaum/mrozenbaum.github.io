@@ -115,3 +115,13 @@ footer.page-footer {
   background-color: white;
 }
 
+/* contact form */
+#contact-form{
+  padding-top:10%;
+}
+
+/* portfolio image in about page */
+#portfolio-image{
+  max-height: 265px;
+  max-width: 265px;
+}
