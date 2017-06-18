@@ -45,37 +45,70 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="images/resume.pdf">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
         </ul>
 
         <ul class="side-nav" id="mobile-demo">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="images/resume.pdf">Resume</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
         </ul> 
       </div>
     </nav>
+    
 
 
-    <!-- contact form -->
+    <!-- first image with heading starts here --> 
+    <div class="parallax-container index-banner">
+        <div class="no-pad-bot">
+            <div class="container">
+              <div class="row center">
+                  <div id="top-header" class="col s12">
+                      <!-- Heading -->
+                      <span>
+                      <h1 class="header light center-align">I would love to <b>hear</b> from <b>you...</b></h1>
+                      </span>
+                      <span>
+                      <h4 class="header light center-align">I am always looking for new <b>opportunities,</b> <b>gigs,</b> and a fun <b>project</b> to work on.</h4>
+                      </span>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+
+        <!--   First image logo   -->
+        <div class="image-wrapper">
+          <div class="parallax">
+            <img src="images/bg_abstract.jpg" alt="Miriam Rozenbaum Logo" id="logo-image"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- /////////// contact form /////////////////// -->
+
     <div class="container">
       <div class="row center align">
         <form id="contact-form" class="col s12" action="mailto:mirirozenbaum5@gmail.com" method="post" enctype="text/plain">
-          <div class="row">
 
-            <!-- first name -->
-            <div class="input-field col s6">
-              <input id="first_name" type="text" class="validate">
-                <label for="first_name">First Name</label>
+            <div class="row">
+              <!-- first name -->
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+              </div>
+
+              <!-- last name -->
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
             </div>
 
-            <!-- last name -->
-            <div class="input-field col s6">
-              <input id="last_name" type="text" class="validate">
-              <label for="last_name">Last Name</label>
-            </div>
-          </div>
 
           <!--  email -->
           <div class="row">
@@ -85,28 +118,29 @@
             </div>
           </div>
 
+
           <div class="row">
             <div class="col s12">
 
               <!-- message -->
               <div class="input-field inline col s12">
-              <textarea id="textarea1" class="materialize-textarea" type="email" class="validate"></textarea>
-              <label for="textarea1" data-error="wrong" data-success="right">Message</label>
+                  <textarea id="textarea1" class="materialize-textarea" type="email" class="validate"></textarea>
+                  <label for="textarea1" data-error="wrong" data-success="right">Message</label>
 
-              <!-- submit button -->
-              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-              <i class="material-icons right">send</i>
-              </button>
+                  <!-- submit button -->
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                  </button>
 
-              <!-- reset button -->
-              <button class="btn waves-effect waves-light" value ="Reset" type="reset" name="action">Reset
-              </button>
+                  <!-- reset button -->
+                  <button class="btn waves-effect waves-light" value ="Reset" type="reset" name="action">Reset
+                  </button>
               </div>
             </div>
           </div>
         </form>
       </div>
-      </div>
+    </div>
 
 
 
@@ -124,9 +158,9 @@
 
 
       <!-- Scripts for materialize template -->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="js/materialize.js"></script>
-      <script src="js/init.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
 
 
 </body>
