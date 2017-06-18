@@ -10,117 +10,112 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+
+
+   <!--  Scripts-->
+
+  <!-- Jquery script tag -->
+  <script type="text/javascript" src="/lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- Angular script tags -->
+  <script type="text/javascript" src="/lib/node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/lib/node_modules/angular-route/angular-route.min.js"></script>
+
+
+
 </head>
 
-<body class="">
 
-<!--   Main menu section   -->
-  <div class="navbar-fixed">
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <div class="top-nav-menu-links">
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html" class="collection-item">Home</a></li>
-        <li class="active"><a href="about.html" class="collection-item">About</a></li>
-        <li><a href="images/resume.pdf" class="collection-item">Resume</a>
-        </li>
-        <li><a href="contact.html" class="collection-item">Contact</a></li>
-      </ul>
+
+
+
+
+<body>
+
+  
+        <!--   Main Menu and Drop Down Menu for Mobile/ Social links   -->
+
+    <nav>
+      <div class="nav-wrapper">
+        
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        <ul class="left">
+                        <!-- github link -->
+                        <li><a class="scale-transition scale-in" href="https://github.com/mrozenbaum">Github</a></li>
+                        <!-- linkedin link -->
+                        <li><a class="scale-transition scale-in" href="https://www.linkedin.com/in/miriam-rozenbaum-250253103/">Linkedin</a></li>
+                        <!-- email link -->
+                        <li><a class="scale-transition scale-in" href="mailto:mirirozenbaum5@gmail.com?Subject=Hello%20again">Email</a></li>
+                    </ul>
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="images/resume.pdf">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="images/resume.pdf">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul> 
       </div>
-      <div class="top-nav-social-icons">
-      <ul class="left">
-            <!-- github link -->
-            <li><a class="scale-transition scale-in" href="https://github.com/mrozenbaum">Github</a></li>
-            <!-- linkedin link -->
-            <li><a class="scale-transition scale-in" href="https://www.linkedin.com/in/miriam-rozenbaum-250253103/">Linkedin</a></li>
-            <!-- email link -->
-            <li><a class="scale-transition scale-in" href="mailto:mirirozenbaum5@gmail.com?Subject=Hello%20again">Email</a></li>
-      </ul>
-      </div>
-  </div>    
-      <!--   Drop Down Menu for Mobile   -->
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="partials/about.html">About</a></li>
-        <li><a href="images/resume.pdf">Resume</a></li>
-        <li><a href="partials/contact.html">Contact</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+    </nav>
 
 
 
-
-<!-- <h5>Able to maintain timelines and schedules with deadlines.</h5> --> 
-
-
-
-<div class="parallax-container index-banner">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <div id="top-header">
-          <h1 class="header col s12 light center-align" >I am...</h1>
-          <h3 class="header col s12 light center-align"><b>Creative.</b> <b>Bold.</b> and <b>Ambitious.</b></h3>
-          <h3 class="header col s12 light center-align">A self-motivated individual who loves <b>problem solving.</b></h3>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--   First image logo   -->
-    <div class="image-wrapper">
-    <div class="parallax"><img src="images/bg_abstract.jpg" alt="Miriam Rozenbaum Logo" id="logo-image"></div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Small about on home page   -->
-      <div class="small-about-home-page">
-          <br>
-          <br>
-          <br>
-
-          <!-- portfolio image -->
-          <div class="valign-wrapper">
-            <div class="row">
-              <div class="col s3">
-                <div class="center-align">
-                  <img src="images/portfolio_image.jpg" alt="Miriam Rozenbaum" class="circle responsive-img" id="portfolio-image">
-                </div>   
+    <div class="parallax-container index-banner">
+          <div class="section no-pad-bot">
+            <div class="container">
+              <div class="row center">
+                <div id="top-header">
+                <h1 class="header col s12 light center-align" >I am...</h1>
+                <h3 class="header col s12 light center-align"><b>Creative.</b> <b>Bold.</b> and <b>Ambitious.</b></h3>
+                <h3 class="header col s12 light center-align">A self-motivated individual who loves <b>problem solving.</b></h3>
+                
+                </div>
               </div>
+            </div>
           </div>
 
-        <br>
-        <br>
-        <br>
 
-        <div>
-
-        <div class="row">
-          <div class="col 12">  
-          <h5 class="header col s12 light left-align" id="middle-header-header">I <b>build,</b> and <b>fix,</b> and <b>design</b> technology related applications and products.</h5>
-          <br>
-          <br>
-          <h5 class="header col s12 light left-align" id="middle-header-header">I take complex <b>problems</b> and turn them into <b>solutions.</b></h5>
-          <br>
-          <br>
-          <h5 class="header col s12 light left-align" id="middle-header-header">I encourage wild <b>ideas.</h5>
-          
+          <!--   First image logo   -->
+          <div class="image-wrapper">
+              <div class="parallax"><img src="images/bg_abstract.jpg" alt="Miriam Rozenbaum Logo" id="logo-image"></div>
           </div>
-          </div>
-             
-        </div>
-        <br>
-        <br>
-        <br>
-      </div>  
       </div>
-    </div>
-  </div>
+
+      <div class="container">
+
+              <!-- portfolio image -->
+              <div class="valign-wrapper">
+                    <div class="row">
+                      <div class="col s3">
+                        <div class="center-align">
+                          <img src="images/portfolio_image.jpg" alt="Miriam Rozenbaum" class="circle responsive-img" id="portfolio-image">
+                        </div>   
+                      </div>
+                  </div>
+              
+                  <div class="row">
+                    <div class="col 12"> 
+                      <section> 
+                          <h5 class="header col s12 light left-align" id="middle-header-header">I <b>build,</b> and <b>fix,</b> and <b>design</b> technology related applications and products.</h5>
+                          <br>
+                          <br>
+                          <h5 class="header col s12 light left-align" id="middle-header-header">I take complex <b>problems</b> and turn them into <b>solutions.</b></h5>
+                          <br>
+                          <br>
+                          <h5 class="header col s12 light left-align" id="middle-header-header">I encourage wild <b>ideas.</b></h5>
+                      </section>
+                    </div>
+                  </div>
+              </div>
+        </div>
+   
 
 
 
@@ -136,19 +131,15 @@
   </footer>
 
 
-
-<!--  Scripts-->
-
-  <!-- Jquery script tag -->
-  <script type="text/javascript" src="/lib/node_modules/jquery/dist/jquery.min.js"></script>
-  <!-- Angular script tags -->
-  <script type="text/javascript" src="/lib/node_modules/angular/angular.min.js"></script>
-  <script type="text/javascript" src="/lib/node_modules/angular-route/angular-route.min.js"></script>
-
-
   <!-- Scripts for materialize template -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+<!--  Scripts-->
+
+
+
+
 </body>
 </html>
