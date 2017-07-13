@@ -125,3 +125,47 @@ footer.page-footer {
   max-height: 265px;
   max-width: 265px;
 }
+
+
+
+
+/*////////////////////// RESUME STYLES /////////////////////*/
+/* resume.html styles stpecific to resume only */
+
+
+
+.resume-header{
+  border: 2px solid black;
+}
+.left-section{
+  border: 2px solid red;
+}
+.main-section{
+  border: 2px solid blue;
+}
+
+
+
+/* nss logo in education section */
+.nss-logo{
+  /*width: 250px;
+  height: 200px;*/
+}
+
+
+/*styles for headings such as About, Experiance, Projects */
+.main-heading{
+  text-align: center;
+}
+/* styles for icons like python, angular, left section */
+.skill-icon{
+  width: 60px;
+  height: 60px;
+}
+/* styles for social link images in header by name. ex: email, phone, github etc. */
+.header-social-link{
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
