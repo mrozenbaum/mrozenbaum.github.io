@@ -126,6 +126,43 @@ footer.page-footer {
   max-width: 265px;
 }
 
+/* image size for hikarl and pearl lash project shots in index page */
+.index-project-shot{
+  max-height: 500px;
+  max-width: 550px;
+}
+/* image size for my closet project shot in index page */
+.my-closet-project-shot{
+  max-height: 550px;
+  max-width: 550px;
+}
+
+
+.main-nav{
+  background-color: white;
+}
+
+.main-nav-link"{
+  color: black;
+  font-weight: bold;
+}
+
+.index-project-section{
+  margin-top:10%;
+}
+
+/*///////////////// PROJECT PAGE //////////////////////////////*/
+/* image size for pearl lash project screen shots */
+.pearl-project-page{
+  max-height: 550px;
+  max-width: 600px;
+}
+/* image size for hi karl project screen shots */
+.karl-project-page{
+  max-height: 550px;
+  max-width: 600px;
+}
+
 
 
 
