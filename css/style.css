@@ -169,7 +169,23 @@ footer.page-footer {
   max-height: 550px;
   max-width: 600px;
 }
+/* title for pearl lash project for projects.html */
+.pearl-lash-title{
+  text-align: center;
+}
+/* title for ki karl project for projects.html */
+.hi-karl-title{
+  text-align: center;
+}
 
+
+.pearl-project-description{
+  text-align: center;
+}
+
+.hi-karl-project-description{
+  text-align: center;
+}
 
 
 

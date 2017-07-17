@@ -20,10 +20,9 @@
   <script type="text/javascript" src="/lib/node_modules/angular/angular.min.js"></script>
   <script type="text/javascript" src="/lib/node_modules/angular-route/angular-route.min.js"></script>
 
-    </head>
+</head>
 
-  <body class="container-fluid">
-
+<body class="container-fluid">
     <!--   Main Menu and Drop Down Menu for Mobile/ Social links   -->
     <nav class="main-nav">
         <div class="nav-wrapper">
@@ -59,17 +58,17 @@
         </div>
     </nav>
       <div class="row">
-          <div class="col-md-12">
-            <div class="col-md-10 resume-header">
+          <div class="col s12">
+            <div class="col s10 resume-header">
                 <header class='top-header'>
                       
                     <!-- header -->
-                    <div class="col-sm-6">
+                    <div class="col s6">
                         <h1>Miriam Rozenbaum</h1>
-                        <h2>Junior Full Stack Developer, UI/IX Digital Product Designer.</h2>
+                        <h2>Software Developer, UI/UX Designer.</h2>
                     </div>
                     <!-- CONTACT -->
-                    <div class="col-sm-4">
+                    <div class="col s4">
                         <div class="header-links">
                             <ul>
                              
@@ -100,7 +99,7 @@
             </div>
           </div>  
             <!-- About Left Section -->
-            <div class="col-sm-4 left-section">
+            <div class="col s4 left-section">
 
                 <!-- About -->
                 <h2>
@@ -179,7 +178,7 @@
 
 
                 <!-- Experiance Main Section -->
-            <div class="col-sm-6 main-section">
+          <div class="col s6 main-section">
                 <h1 class="main-heading">Experiance</h1>
                 
                 <!-- NSS -->
@@ -225,9 +224,10 @@
                 <p>
                     Connected with local and national artists to find new oil paintings, for clients to decorate their homes or businesses with. Traveled through out the country to meet with clients, artists, and businesses. Always building strong relationships with the people i work with. Responsible for purchasing several styles and periods of art to meet public demand, and local trend. Showcasing the oil paintings at scheduled appointments and designing the decoration of art pieces.
                 </p>
-
+          </div>
        
-
+                        <div class="row">
+                          <div class="col s12">
        
                           <!-- PROJECTS -->
                           <h1 class="main-heading">Projects</h1>
@@ -236,7 +236,7 @@
 
                           <p>Is a SPA built with <b>AngularJS</b> for a client who's services include eyelash extension certification training and various realted beauty products. I used <b>Firebase</b> to authenticate users, and store user information, providing the user with the ability to create a profile and save their products or training information for a later time. Users can contact the company via a simple form, social links, or phone. I was given a strict 'style bible' to go by. Specific colors, styles, and company logos. I achiveved the clients needs using <b>Bootstrap</b> and <b>CSS.</b> In the end, I refactored and redesigned this project to be more "client friendly" by hard coding the code into a <b>Wordpress</b> theme and making it easier for the client to access and update on the fly. The company and website have been live since April 2017.</p>
                           <div class="bs-example"> 
-                            <img src="images/Pearl_lash_screen_shot_1.png" class="img-thumbnail img-responsive" alt="Thumbnail Image">
+                            <img src="images/Pearl_lash_screen_shot_1.png" class="img-thumbnail img-responsive" height="400" alt="Pearl Lash Extensions Logo">
                           </div>
 
                           <h4>
@@ -245,19 +245,23 @@
                           <h4>Backend Capstone, Nashville Software School</h4>
                           <p>Is an application build with <b>Python</b> and <b>Django.</b> As the user you create a Closet and store and keep track of all the things in your closet. To take full advantage of the app, users should add their whole closet. All you have to do is create a closet, add items to it. You can search your closet,  your categories, colors, brands, prices, etc. You can also add photos of your items. I styled this application using Bootstrap and CSS.</p>
                           <div class="bs-example"> 
-                            <img src="/examples/images/125x125.jpg" class="img-thumbnail" alt="My Closet App Image">
+                            <img src="images/My_closet_logo.png" class="img-thumbnail img-responsive" height="300" alt="My Closet Logo">
                           </div>
                           <h3>HI KARL</h3>
                           <h4>UI/UX Digital Product Design, Nashville Software School</h4>
-                          <div class="bs-example"> 
-                            <img src="images/Hi_karl_screen_shot_1.png" class="img-thumbnail img-responsive" alt="Hi Karl Image">
+                          <div class="karl-resume-image"> 
+                            <img src="images/Hi_karl_screen_shot_1.png" class="img-thumbnail img-responsive" height="400" alt="Hi Karl Logo">
                           </div>
                           <h4>
                           <a href="https://www.hikarl.com/">https://www.hikarl.com/</a></h4>
-                          <p></p>
+                    </div>
+                  </div>
 
-            </div>
-          </div>
-    </div>
-  </body>
+
+    <!-- Scripts for materialize template -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
 </html>
