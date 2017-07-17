@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Miriam Rozenbaum, Software Developer, UI/UX Designer</title>
 
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <link type="text/css" rel="stylesheet" href="css/style.css"/>
-      <title>Miriam Rozenbaum</title>
+
+
+   <!--  Scripts-->
+
+  <!-- Jquery script tag -->
+  <script type="text/javascript" src="/lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- Angular script tags -->
+  <script type="text/javascript" src="/lib/node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/lib/node_modules/angular-route/angular-route.min.js"></script>
 
     </head>
 
   <body class="container-fluid">
+
+    <!--   Main Menu and Drop Down Menu for Mobile/ Social links   -->
+    <nav class="main-nav">
+        <div class="nav-wrapper">
+
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="left">
+                    <!-- github link -->
+                    <li class="main-nav-link"><a class="scale-transition scale-in" href="https://github.com/mrozenbaum">Github</a>
+                    </li>
+                    <!-- linkedin link -->
+                    <li class="main-nav-link"><a class="scale-transition scale-in" href="https://www.linkedin.com/in/miriam-rozenbaum-250253103/">Linkedin</a>
+                    </li>
+                    <!-- email link -->
+                    <li class="main-nav-link"><a class="scale-transition scale-in" href="mailto:mirirozenbaum5@gmail.com?Subject=Hello%20again">Email</a>
+                    </li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li class="active"><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <ul class="side-nav" id="mobile-demo">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="images/resume.pdf">Resume</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul> 
+        </div>
+    </nav>
       <div class="row">
           <div class="col-md-12">
             <div class="col-md-10 resume-header">
@@ -197,7 +240,7 @@
                           </div>
 
                           <h4>
-                          <a href="https://pearllashextensions.com/">https://pearllashextensions.com/</a></h4>
+                          <a href="https://github.com/mrozenbaum/My_Closet_App">https://github.com/mrozenbaum/My_Closet_App</a></h4>
                           <h3>MyCloset App</h3>
                           <h4>Backend Capstone, Nashville Software School</h4>
                           <p>Is an application build with <b>Python</b> and <b>Django.</b> As the user you create a Closet and store and keep track of all the things in your closet. To take full advantage of the app, users should add their whole closet. All you have to do is create a closet, add items to it. You can search your closet,  your categories, colors, brands, prices, etc. You can also add photos of your items. I styled this application using Bootstrap and CSS.</p>
