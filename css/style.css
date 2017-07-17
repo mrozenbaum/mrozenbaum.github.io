@@ -67,22 +67,7 @@ footer.page-footer {
 .skill-icon-wrapper{
   text-align: center;
 }
-/* image styling on abstrach background on home page */
-.image-wrapper{
-  opacity: 0.4;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  /*z-index: -1;   */
-}
 
-/* writing on top image header in index */
-#top-header{
-  color: black;
-  font-size: 25px;
-}
 
 /* icon styling for skills and technologies */
 .skill-icon{
@@ -125,3 +110,99 @@ footer.page-footer {
   max-height: 265px;
   max-width: 265px;
 }
+
+/* image size for hikarl and pearl lash project shots in index page */
+.index-project-shot{
+  max-height: 450px;
+  max-width: 450px;
+}
+/* image size for my closet project shot in index page */
+.my-closet-project-shot{
+  max-height: 500px;
+  max-width: 500;
+}
+
+
+.main-nav{
+  background-color: white;
+}
+
+.main-nav-link"{
+  color: black;
+  font-weight: bold;
+}
+
+.index-project-section{
+  margin-top:10%;
+  text-align: center;
+}
+/* white modern building image in index */
+#logo-image{
+  max-height: 650px;
+  max-width: 2000px;
+
+}
+
+#contact-form-btn{
+  color: white;
+  background-color: black;
+}
+
+/*//////////////////// CONTACT PAGE ////////////////////////////////// */
+
+/* header text style for heading in contact.html */
+#contact-header{
+  color: black;
+}
+
+
+
+/*///////////////// PROJECT PAGE //////////////////////////////*/
+/* image size for pearl lash project screen shots */
+.pearl-project-page{
+  max-height: 550px;
+  max-width: 600px;
+}
+
+/* image size for hi karl project screen shots */
+.karl-project-page{
+  max-height: 550px;
+  max-width: 600px;
+}
+
+
+
+
+/*////////////////////// RESUME STYLES /////////////////////*/
+/* resume.html styles stpecific to resume only */
+
+
+
+.resume-header{
+  border: 2px solid black;
+}
+.left-section{
+  border: 2px solid red;
+}
+.main-section{
+  border: 2px solid blue;
+}
+
+
+
+/*styles for headings such as About, Experiance, Projects */
+.main-heading{
+  text-align: center;
+}
+/* styles for icons like python, angular, left section */
+.skill-icon{
+  width: 60px;
+  height: 60px;
+}
+/* styles for social link images in header by name. ex: email, phone, github etc. */
+.header-social-link{
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+

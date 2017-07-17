@@ -23,42 +23,41 @@
 
 </head>  
 <body>
+    <!--   Main Menu and Drop Down Menu for Mobile/ Social links   -->
+    <nav class="main-nav">
+        <div class="nav-wrapper">
 
- 
-        <!--   Main Menu and Drop Down Menu for Mobile/ Social links   -->
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="left">
+                    <!-- github link -->
+                    <li class="main-nav-link"><a class="scale-transition scale-in" href="https://github.com/mrozenbaum">Github</a>
+                    </li>
+                    <!-- linkedin link -->
+                    <li class="main-nav-link"><a class="scale-transition scale-in" href="https://www.linkedin.com/in/miriam-rozenbaum-250253103/">Linkedin</a>
+                    </li>
+                    <!-- email link -->
+                    <li class="main-nav-link"><a class="scale-transition scale-in" href="mailto:mirirozenbaum5@gmail.com?Subject=Hello%20again">Email</a>
+                    </li>
+                </ul>
 
-    <nav>
-      <div class="nav-wrapper">
-        
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
 
-        <ul class="left">
-                        <!-- github link -->
-                        <li><a class="scale-transition scale-in" href="https://github.com/mrozenbaum">Github</a></li>
-                        <!-- linkedin link -->
-                        <li><a class="scale-transition scale-in" href="https://www.linkedin.com/in/miriam-rozenbaum-250253103/">Linkedin</a></li>
-                        <!-- email link -->
-                        <li><a class="scale-transition scale-in" href="mailto:mirirozenbaum5@gmail.com?Subject=Hello%20again">Email</a></li>
-                    </ul>
-
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="images/resume.pdf">Resume</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
-        </ul>
-
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="images/resume.pdf">Resume</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
-        </ul> 
-      </div>
+                <ul class="side-nav" id="mobile-demo">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="images/resume.pdf">Resume</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul> 
+        </div>
     </nav>
     
-
-
     <!-- first image with heading starts here --> 
     <div class="parallax-container index-banner">
         <div class="no-pad-bot">
@@ -67,26 +66,15 @@
                   <div id="top-header" class="col s12">
                       <!-- Heading -->
                       <span>
-                      <h1 class="header light center-align">I would love to <b>hear</b> from <b>you...</b></h1>
+                      <h1 id="contact-header" class="header light center-align">I would love to <b>hear</b> from <b>you...</b></h1>
                       </span>
                       <span>
-                      <h4 class="header light center-align">I am always looking for new <b>opportunities,</b> <b>gigs,</b> and a fun <b>project</b> to work on.</h4>
+                      <h4 id="contact-header" class="header light center-align">I am always looking for new <b>opportunities,</b> <b>gigs,</b> and a fun <b>project</b> to work on.</h4>
                       </span>
                   </div>
               </div>
             </div>
         </div>
-
-
-        <!--   First image logo   -->
-        <div class="image-wrapper">
-          <div class="parallax">
-            <img src="images/bg_abstract.jpg" alt="Miriam Rozenbaum Logo" id="logo-image"></div>
-        </div>
-
-    </div>
-
-
 
 
     <!-- /////////// contact form /////////////////// -->
@@ -128,12 +116,12 @@
                   <label for="textarea1" data-error="wrong" data-success="right">Message</label>
 
                   <!-- submit button -->
-                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <button id="contact-form-btn" class="btn waves-effect waves-light" type="submit" name="action">Submit
                   <i class="material-icons right">send</i>
                   </button>
 
                   <!-- reset button -->
-                  <button class="btn waves-effect waves-light" value ="Reset" type="reset" name="action">Reset
+                  <button id="contact-form-btn" class="btn waves-effect waves-light" value ="Reset" type="reset" name="action">Reset
                   </button>
               </div>
             </div>
