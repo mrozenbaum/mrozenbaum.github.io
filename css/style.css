@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: black;
 }
 
 p {
@@ -62,6 +62,11 @@ footer.page-footer {
 /* ////////////////////////////////////////////////////
 ///////////////// MY CSS STYLES ///////////////////////
 /////////////////////////////////////////////////////*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
 
 /* skills and tech icons on home page */
 .skill-icon-wrapper{
@@ -146,6 +151,12 @@ footer.page-footer {
 #contact-form-btn{
   color: white;
   background-color: black;
+}
+
+/* index page heading for project cards */
+.recent-projects{
+  text-align: center;
+  font-weight: bold;
 }
 
 /*//////////////////// CONTACT PAGE ////////////////////////////////// */
