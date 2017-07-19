@@ -155,6 +155,9 @@ footer.page-footer {
   color: black;
 }
 
+.here-link-form{
+  color: red;
+}
 
 
 /*///////////////// PROJECT PAGE //////////////////////////////*/
@@ -187,6 +190,22 @@ footer.page-footer {
   text-align: center;
 }
 
+/* LINK COLORS FOR ALL LINKS IN PROJECTS.HTML */
+.github-link-projects{
+  color: red;
+}
+
+.pearl-link-projects{
+  color: red;
+}
+
+.hi-karl-link-projects{
+  color: red;
+}
+
+.my-karl-project-link{
+  color: red;
+}
 
 
 /*////////////////////// RESUME STYLES /////////////////////*/
