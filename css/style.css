@@ -73,6 +73,14 @@ body {
   text-align: center;
 }
 
+.projects-link-index{
+  font-size: 25px;
+}
+/* style for 'projects' link on home page */
+.projects-link-index:hover{
+  font-size: 30px;
+}
+
 
 /* icon styling for skills and technologies */
 .skill-icon{
