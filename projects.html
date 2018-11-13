@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <title>Miriam Rozenbaum, Software Developer, UI/UX Digital Product Designer</title>
+  <title>Miriam Rozenbaum Software Developer & UI/UX Designer</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,6 +21,8 @@
   <!-- Angular script tags -->
   <script type="text/javascript" src="/lib/node_modules/angular/angular.min.js"></script>
   <script type="text/javascript" src="/lib/node_modules/angular-route/angular-route.min.js"></script>
+  <!-- Script for initalization of collapsible accordion -->
+  <script type="text/javascript" src="js/init.js"></script>
 
 
 </head>
@@ -30,93 +32,76 @@
     <nav class="main-nav">
         <div class="nav-wrapper">
             <div class="wrapper">
-              <a href="index.html" class="black-text accent-3 brand-logo"><b>Miriam Rozenbaum Software Developer & UI/UX Designer</b></a>
+              <a href="index.html" class="black-text accent-3 brand-logo"><h4><b>Miriam Rozenbaum</b></h4><h5 class="red-text darken-4"><b>Software Developer & UI/UX Designer.</b></h5></a>
             </div> 
 
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="images/Miriam_Rozenbaum_Resume.pdf">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" class="red-text accent-2"><i class="material-icons">home</i></a></li>
+                    <li><a href="about.html" class="red-text accent-2"><i class="material-icons">account_box</i></a></li>
+                    <li><a href="projects.html" class="red-text accent-2"><i class="material-icons">business_center</i></a></li>
+                    <li><a href="contact.html" class="red-text accent-2"><i class="material-icons">mail</i></a></li>
                 </ul>
 
                 <ul class="side-nav" id="mobile-demo">
                   <li class="active"><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="projects.html" class="active">Projects</a></li>
-                  <li><a href="images/Miriam_Rozenbaum_Resume.pdf">Resume</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="contact.html" class="active">Contact</a></li>
                 </ul> 
         </div>
     </nav>
+    
 
-    <!-- heading with image starts here --> 
-    <div class="parallax-container index-banner">
-        <div class="no-pad-bot">
-            <div class="container">
-              <div class="row center">
-                  <div id="top-header" class="col s12">
-                      
-                      
-                  </div>
-              </div>
-            </div>
-        </div>
-        <!--   Actual image logo   -->
-        <div class="image-wrapper">
-          <div class="center-align">
-            <img src="images/modern_header.png" alt="Miriam Rozenbaum Logo" class="center-align img-responsive" height="" id="logo-image">
-            </div>
-        </div>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img class="responsive-img" src="images/background-image6.jpg">
+      </div>
     </div>
 
 
-    <div class="section">
-        <div class="row center-align">
-            <div class="col s10">
-                  <h4 class="pearl-lash-title"><b>Pearl Lash Extensions</b></h4>
-                  <br>
-                  <br>
-                  <p class="pearl-project-description">Pearl Lash is an e-commerce website built with Wordpress, and hosted on e-host. The company services include certified eyelash trainings and products. When I started with the project i originally built it with AngularJS, and i used Firebase to store user information. The client needed a way for the user to be able to store and buy products, and store and pay for certified trainings. As the project progressed, the website became too complicated for someone who is not familiar with any development. I decided in order to make the website more "client friendly" and have the most simple way for the client to update it, we had to recreate the project with a Wordpress theme, and to use plugins for e-commerce or connect their square space. One of the biggest challenges i had was working with Wordpress and e-host because i have never used them before, also the themes are very limiting, and as a developer and designer i thrive for that customization. I enjoyed working with a great company, and it has taught me how to put my wants and opinions to the side and to succeed in the goal of the company by providing the users with their needs. The company launched their website in April 2007. View the website <a href="https://pearllashextensions.com/" class="pearl-link-projects">Here</a> and the full project on my <a href="https://github.com/mrozenbaum/pearl-lash-app" class="github-link-projects">Github.</a></p>
-                
-            </div>
-        </div>
+    <div class="row">
+      <div class="col s10">
+        <h5>View my <a href="images/Miriam_R_Resume.pdf">Resume.</a>
+        </h5>
+      </div>
+    </div>
 
-        <div class="row">
-          <div class="col s10">
-         
-                <img src="images/Pearl_lash_screen_shot_1.png" class=" img-thumbnail img-responsive pearl-project-page" alt="Pearl Lash Logo"> 
-              
-                <img src="images/Pearl_lash_screen_shot_3.png" alt="Pearl Lash Logo" class=" img-thumbnail img-responsive pearl-project-page">  
-         
-          </div>    
-        </div>
 
-      
-                
-        <div class="row">
-          <div class="col s10">
-              <h4 class="hi-karl-title"><b>Hi Karl - UI/UX Portfolio</b></h4>
-              <br>
-              <br>
-              <p class="hi-karl-project-description">
-              Hi Karl Project Overview:
-              Finding concerts fans are interested in today is painful. Information is spread across multiple sources, and no solution easily addresses the last-minute discovery of events. On the other side, 30% of tickets stay unsold which represents a $15b loss for venues, artists and promoters. Hi Karl is a young start up founded by three developers and entrepreneurs based out of New York,  who love music, and saw a huge problem in the music industry. Their mission is to make it extremely easy for users to discover last-minute concerts and music events around them in the next 48 hours. Karl is an AI-powered virtual concierge chatbot which integrates with Amazon’s Alexa and Facebook Messenger aggregating all events happening in an area. Based on a proprietary IP, Karl leverages the user’s listening habits, connecting to the user’s streaming systems, geographic data, and behavioral data to provide relevant concert recommendations for each user. In addition, to reduce the numbers of unsold tickets, Hi Karl allows promoters to push last-minute tickets directly to fans, at the exact time they are looking for an event. Currently Hi Karl is only in Charlotte NC, Memphis & Nashville TN, & New York. The company has plans to expand to multiple larger and urbanized cities alike. Also, the company recently launched Hi Karl for festivals. Users can build their perfect line-up before heading to a festival. When you go to a festival, you know about 20-25% of the artists, let Karl help you out with finding the rest. Users select their festival, the acts they know, plug their Spotify, and let the magic happen. (A V1 so lots of improvement to be expected) Their main consumers are millennials between the ages of 21-25  year olds who are comfortable with using new technology, live in urban cities, and go to concerts and music events several times a month. Project will be complete August 2017 (please contact me for more details) You can view Hi Karl's website <a href="" class="hi-karl-link-projects">Here.</a></p>
-          </div>
+    <div class="row">
+      <div class="col s10">
+        <h5>View my Projects below:</h5>
+      </div>
+    </div>
+
+
+    <section>
+      <div class="row">
+        <div class="col s10 container">
+          <ul class="collapsible popout">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">add</i>Pearl Lash Extensions</div>
+              <div class="collapsible-body"><span><b>Pearl Lash Extensions</b> is an e-commerce website. Originally built with AngularJS and Firebase, and was updated to Wordpress for easy magangement for the client.</span>
+
+              <p>View <b>Project</b> Details <a href="pearllashextensions.html" class="red-text accent-2"><i class="material-icons"></i>Here.</a></p>
+              <p>View <b>Website</b> <a href="https://pearllashextensions.com/" class="red-text">Here.</a></p> 
+              <p>View on <b>Github</b> <a href="https://github.com/mrozenbaum/pearl-lash-app" class="red-text">Here.</a></p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">add</i>My Closet</div>
+              <div class="collapsible-body"><span>Is an application build with Python and Django. As the user you create a Closet and keep track of all the things in your closet. To take full advantage of the app, users should add their whole closet.</span>
+              <p>View on <b>Github</b> <a href="https://github.com/mrozenbaum/My_Closet_App" class="red-text">Here.</a></p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">add</i>Hi Karl</div>
+              <div class="collapsible-body"><span>Finding concerts fans are interested in today is painful. Information is spread across multiple sources, and no solution easily addresses the last-minute discovery of events. On the other side, 30% of tickets stay unsold which represents a $15b loss for venues, artists and promoters. Hi Karl is a young start up founded by three developers and entrepreneurs based out of New York.</span>
+
+              <p>View <b>Project</b> Details <a href="hikarl.html" class="red-text accent-2"><i class="material-icons"></i>Here.</a></p>
+            </li>
+          </ul>
         </div>
-        <div class="row">
-          <div class="col s10">
-         
-                <img src="images/Hi_karl_screen_shot_6.png" alt="Hi Karl Logo" class="img-responsive img-thumbnail karl-project-page">
-         
-         
-                <img src="images/Hi_karl_screen_shot_5.png" alt="Hi Karl Logo" class="img-responsive img-thumbnail karl-project-page">
-            
-          </div>
-        </div> 
-    </div>     
+      </div>
+    </section>
 
 
       <!-- footer with links and bio, copyright. -->
@@ -124,7 +109,7 @@
         <div class="footer-copyright">
           <div class="container">
             <div class="row">
-              <p class="copyright">&copy 2017 Miriam Rozenbaum</p>
+              <p class="copyright">&copy 2018 Miriam Rozenbaum</p>
                 <!-- github link -->
                 <ul class="center">
                 <a class="scale-transition scale-in" href="https://github.com/mrozenbaum">
